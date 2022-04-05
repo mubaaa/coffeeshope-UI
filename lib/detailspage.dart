@@ -62,10 +62,10 @@ class _DetailsPageState extends State<DetailsPage> {
                           const SizedBox(
                             height: 10,
                           ),
-                          Container(
+                          const SizedBox(
                             width: 183,
                             // color: Colors.amber,
-                            child: const Text(
+                            child: Text(
                               "Freshly steamed milk with vanilla-flavored syrup is marked with espresso and topped with caramel drizzle for an oh-so-sweet finish.",
                               style: TextStyle(
                                   fontFamily: "varala",
@@ -82,7 +82,7 @@ class _DetailsPageState extends State<DetailsPage> {
                             children: [
                               CircleAvatar(
                                 radius: 23,
-                                backgroundColor: Color.fromARGB(255, 70, 67, 67),
+                                backgroundColor: const Color.fromARGB(255, 70, 67, 67),
                                 child: Center(
                                   child: RichText(
                                       text: const TextSpan(
@@ -98,26 +98,26 @@ class _DetailsPageState extends State<DetailsPage> {
                                       ])),
                                 ),
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 width: 10,
                               ),
                               Column(
                                 children: [
                                   Stack(
-                                    children: [
-                                      Container(
+                                    children: const [
+                                      SizedBox(
                                         height: 30,
                                         width: 80,
                                         // color: Colors.amberAccent,
                                       ),
-                                      const Positioned(
+                                      Positioned(
                                           left: 40,
                                           child: CircleAvatar(
                                               radius: 13,
                                               backgroundColor: Colors.white,
                                               backgroundImage: AssetImage("assets/man.jpg"),
                                                       )),
-                                      const Positioned(
+                                      Positioned(
                                         left: 20,
                                         child: CircleAvatar(
                                           radius: 13,
@@ -125,7 +125,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                           backgroundImage: AssetImage("assets/model.jpg"),
                                         ),
                                       ),
-                                      const Positioned(
+                                      Positioned(
                                         left: 0,
                                         child: CircleAvatar(
                                           radius: 13,
@@ -135,8 +135,8 @@ class _DetailsPageState extends State<DetailsPage> {
                                       ),
                                     ],
                                   ),
-                                  SizedBox(height: 0,),
-                                  Text("+27more", style: TextStyle(color: Colors.white,fontFamily: "varala",fontWeight: FontWeight.bold,fontSize: 12),)
+                                  const SizedBox(height: 0,),
+                                  const Text("+27more", style: TextStyle(color: Colors.white,fontFamily: "varala",fontWeight: FontWeight.bold,fontSize: 12),)
                                 ],
                               )
                             ],

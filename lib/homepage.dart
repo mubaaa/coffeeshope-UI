@@ -85,7 +85,7 @@ class _HomePageState extends State<HomePage> {
             const SizedBox(
               height: 20,
             ),
-            Container(
+            SizedBox(
               height: 410,
               child: ListView(
                 scrollDirection: Axis.horizontal,
@@ -290,7 +290,7 @@ class _HomePageState extends State<HomePage> {
             GestureDetector(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => DetailsPage()));
+                    MaterialPageRoute(builder: (context) => const DetailsPage()));
               },
               child: Container(
                 height: 48,
