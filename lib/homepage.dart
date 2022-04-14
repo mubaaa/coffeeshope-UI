@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:ui_coffeshope/constent.dart';
 import 'package:ui_coffeshope/detailspage.dart';
 
+
+
+
+
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
@@ -289,6 +293,7 @@ class _HomePageState extends State<HomePage> {
             ),
             GestureDetector(
               onTap: () {
+                
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => const DetailsPage()));
               },
