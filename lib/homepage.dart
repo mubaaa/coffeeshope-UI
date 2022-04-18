@@ -2,10 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:ui_coffeshope/constent.dart';
 import 'package:ui_coffeshope/detailspage.dart';
 
-
-
-
-
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 

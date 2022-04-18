@@ -18,7 +18,7 @@ Ingredients(Color color, IconData icon, String txt,) {
      const SizedBox(
         height: 3,
       ),
-      Container(
+      SizedBox(
         width: 70,
         child: Text(
           txt,
@@ -45,7 +45,7 @@ Ingredients(Color color, IconData icon, String txt,) {
               fontFamily: "varala",
               fontWeight: FontWeight.bold),
         ),
-        SizedBox(
+        const SizedBox(
           width: 15,
         ),
         Text(
